@@ -27,7 +27,7 @@ public class ChooseLanguage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_language);
-
+//setcontentview
         btncontinue = findViewById(R.id.btncontinue);
         radiogroup = findViewById(R.id.radiogroup);
 
