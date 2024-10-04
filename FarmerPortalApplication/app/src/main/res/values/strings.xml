@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">TechFarm</string>
+    <string name="_7_12">7/12</string>
+    <string name="government_scheme">Government Scheme</string>
+    <string name="weather_forecast">Weather Forecast</string>
+    <string name="fertilizer_prediction">Fertilizer Prediction</string>
+    <string name="market_requirement">Market Requirement</string>
+    <string name="market_rate">Market Rate</string>
+    <string name="insurance">Insurance</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="merchant1">Merchant 1</string>
+    <string name="merchant1_name">Tejas Pande</string>
+    <string name="merchant1_address">Nashik Road</string>
+    <string name="merchant1_requirement">need 20kg onion</string>
+    <string name="merchant1_contact">7218875888</string>
+    <string name="merchant2">Merchant 2</string>
+    <string name="merchant2_name">Avinash Kangane</string>
+    <string name="merchant2_address">Bhagur</string>
+    <string name="merchant2_requirement">Need 50kg Tomato</string>
+    <string name="merchant2_contact">9130852181</string>
+    <string name="merchant3">Merchant 3</string>
+    <string name="merchant3_name">Sachin Ghugare</string>
+    <string name="merchant3_address">Niphad</string>
+    <string name="merchant3_requirement">Need 55kg Potato</string>
+    <string name="merchant3_contact">9563684777</string>
+    <string name="merchant4">Merchant 4</string>
+    <string name="merchant4_name">Rohan Kapse</string>
+    <string name="merchant4_address">Lasalgaon</string>
+    <string name="merchant4_requirement">Need 30kg onion</string>
+    <string name="merchant4_contact">9658742312</string>
+    <string name="merchant5">Merchant 5</string>
+    <string name="merchant5_name">Samarthanand Kamble</string>
+    <string name="merchant5_address">Panchavati</string>
+    <string name="merchant5_requirement">Need 60kg Tomato</string>
+    <string name="merchant5_contact">8574585965</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="requirement">Requirement</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="nashik">Nashik</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="gov_scheme1">PM-Kisan Scheme : </string>
+    <string name="gov_scheme1_desc">The first agriculture scheme on the list is the PM-Kisan Scheme. The
+    scheme is popularly known as Pradhan Mantri Kisan Samman Nidhi Yojana. It is a new
+    scheme for farmers which launched on 1 February 2019 (effective from December 2018)
+    under the Ministry of Agriculture and Farmers Welfare. Also, the scheme provides
+    support to India’s small and marginal farmers who have less than 2 hectares of
+    landholding.</string>
+    <string name="gov_scheme2">Pradhan Mantri Kisan Maandhan Yojana : </string>
+    <string name="gov_scheme2_desc">The second scheme on the list is Pradhan
+    Mantri Kisan Maandhan yojana. PM Narendra Modi launched the scheme on 11
+    September 2019 for small and marginal farmers. Also, farmers falling in the age group of
+    18-40 years can apply for this scheme.</string>
+    <string name="gov_scheme3">Pradhan Mantri Fasal Bima Yojana (PMFBY) : </string>
+    <string name="gov_scheme3_desc">The third scheme listed on the list is
+    Pradhan Mantri Fasal Bima Yojana (PMFBY). 18 February 2016 was the day when Prime
+    Minister Shri Narendra Modi launched this profitable scheme. It is an actuarial premium
+    based scheme for farmers. 21-states implemented this scheme in Kharif 2016, while 23
+    states and 2-union territories implemented this scheme in Rabi 2016-17.</string>
+    <string name="gov_scheme4">Kisan Credit Card (KCC) Scheme : </string>
+    <string name="gov_scheme4_desc">The fourth scheme on the list is the Kisan Credit Card
+    (KCC) Scheme. The scheme was launched in 1998 to provide short-term formal credit to
+    the farmers. Many banks are available that offer KCC such as SBI, HDFC, ICICI, Axis.
+    </string>
+    <string name="gov_scheme5">Pradhan Mantri Krishi Sinchai Yojana (PMKSY) : </string>
+    <string name="gov_scheme5_desc">The fifth scheme on the list is Pradhan
+    Mantri Krishi Sinchai Yojana (PMKSY). Pradhan Mantri Krishi Sinchai Yojana was
+        launched on 1 July 2015 with the motto of “Har Khet Ko Paani”. This scheme offers an
+    end-to-end solution in the irrigation supply chain like water sources, distribution
+    networks &amp; farm level applications. Thus, the Government of India resolves the high
+    agreement required for water conservation and its administration.
+    </string>
+    <string name="gov_scheme6">Rajiv Gandhi Kisan Nyay Yojna : </string>
+    <string name="gov_scheme6_desc">The sixth scheme on the list of schemes for agriculture
+    in India is Rajiv Gandhi Kisan Nyay Yojna. The scheme was launched on 21 May 2020 on
+    the former prime minister’s death anniversary by the Chhattisgarh government.
+    </string>
+    <string name="gov_scheme7">National Mission For Sustainable Agriculture (NMSA) : </string>
+    <string name="gov_scheme7_desc">The seventh scheme on the list
+    is National Mission For Sustainable Agriculture (NMSA). This agriculture Yojana started
+    from 2014-15 to make agriculture more productive, sustainable, remunerative and
+    climate-resilient.
+    </string>
+    <string name="recommended_fertilizer_and_chemicals">Recommended fertilizer and chemicals</string>
+    <string name="fertilizer_tomato">DIVINE TREE Epsom Salt Magnesium Sulfate for Speed Up Plant Growth
+        Vegetables &amp; Plants Nutrient</string>
+    <string name="fertilizer_tomato_info">About : Magnesium Sulfate (Epsom Salt) can increase seed germination
+        and nutrient uptake It helps improve flower blooming and enhances a plant\'s green color
+        Best for Vegetables,Flowers &amp; Landscape 100% Water Soluble Fertilizer Fertilize your
+        garden using Divine Tree Epsom salt. Looking for the richest, most delicious fruits and
+        vegetables this season? Add Epsom salt to your regular watering routine to not only boost flavor,
+        but also color and even size.</string>
+    <string name="fertilizer_potato">ANSHUL Potato - Multinutrients Product|Complete and Balanced Potato Nutrition| Better Growth and Development of
+    Potato
+    </string>
+    <string name="fertilizer_potato_info">About : 1. ANSHUL POTATO overcomes all deficiency of trace elements
+        in potato crops.
+        2. ANSHUL POTATHUL POTATO O produces high quality Potatoes with
+        higher yield.
+        3. ANShelps in increasing resistance to pests and other diseases.
+        4.ANSHUL POTATO Special stimulates proper development of potato and
+            increases size of the potato and reduces variation in size. 5. Increases
+            photosynthesis by developing roots of plants</string>
+    <string name="fertilizer_rice">Agri Root Eco Friendly Organic Plant Root Stimulator || Growth Booster ||
+Plant Bio- Fertilizer || for Vigorous Rooting, Fruiting and Flowering
+    </string>
+    <string name="fertilizer_rice_info">About : Package Contains: Combo Pack Of 2: 1 Liquid 250 ML
+        Fertilizer and 1125 Grms Granule Fertilizer Increases germination and viability of seeds.
+        Increases vitamin content of plant. Increases permeability of plant membrane
+        so as to optimize uptake of minerals. Increases availability of phosporus
+        Increases root respiration and formation. Stimulates plant enzymes and also
+        helps in photosynthesis. Better root growth ; Longer shelf life of fruits and
+        vegetable. Method Of Application: Liquid Agri Root Shakti: Dilute 2ML of Agri
+        Root Shakti in 1 Litre of water and spray on all plants. For ornamental plants and
+        grass lawns - once in 10 days at morning and evening. For best results can be
+        combined with fertilizer spray also. Granule Agri Root Shakti: Soil ApplicationApply 
+        Agri Root Shakti Granule 60-70 flakes per plant once in 10 days followed
+        by watering of plants. Increase sugar content and high degree sweetness of
+        fruits Retain water solubility in organic fertilizer in root zones and releases them
+        to plant when required Retains extreme high ion exchange capacity. Increases
+        percentage of total nitrogen content in soil Better and uniform crop stand
+    </string>
+    <string name="fertilizer_brinjal">TSR Organic Fertilisers &amp; Pesticides 3 in One Organic Leaf Antivirus
+        Growth Promoter Excellent Result Pesticide for All Vegetable, Fruit Plants</string>
+    <string name="fertilizer_brinjal_info">About : One stop solution for all your garden pests.
+        2 ml per litre of water and spray entire plant to and bottom of the leaves Protects the plants
+        leaves with Major VIRUSES. Guards and protect your plant with Major Pests like insects,
+        worms, bugs, sucking pest..etc Helps the damage plants to recover normal with
+        fresh new leaves. Helps the plant to improve resistance to fight with major Pests</string>
+    <string name="document_activity">Document Activity</string>
+    <string name="government_activity">Government Scheme</string>
+    <string name="login">Login</string>
+    <string name="enter_email">Enter Email ID</string>
+    <string name="enter_password">Enter password</string>
+    <string name="link_signup">Don\'t have an account? Sign Up</string>
+    <string name="signup">Sign Up</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phoneno">Enter Phone No</string>
+    <string name="link_login">Already have an Account? Login</string>
+    <string name="contactus_email">Farmerhelp@gmail.com</string>
+    <string name="contactus_phone">70572 28375</string>
+    <string name="welcome_message">Welcome to Farmer Portal</string>
+    <string name="gov_scheme8">Micro Irrigation Fund scheme</string>
+    <string name="gov_scheme8_desc">National Bank for Agriculture and Rural Development (NABARD) has created a Micro Irrigation Fund with a corpus of Rs. 5,000 crore implemented from 2019-20. The objective of the fund is to facilitate the states in availing an interest subvented loan for expanding
+coverage of micro irrigation facilities by taking up special and innovative projects and also for incentivising micro irrigation beyond the provisions available under PMKSY to encourage farmers to install micro irrigation systems.
+</string>
+    <string name="gov_scheme9">Mission Organic Value Chain Development for North Eastern Region (MOVCDNER)</string>
+    <string name="gov_scheme9_desc">MOVCDNER aims to develop the certified organic production in a value chain mode to link farmers with consumers and to support the development of entire value chain starting from organic inputs, seeds, certification and creation of facilities for collection, aggregation, processing, marketing and brand building initiatives. The scheme is being implemented in north eastern states Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim and Tripura</string>
+    <string name="gov_scheme10">Kisan Credit Card (KCC)</string>
+    <string name="gov_scheme10_desc">In a bid to provide adequate and timely credit to the farmers for their agricultural expenditures, the Central government had launched Kisan Credit Card (KCC) scheme in the year 1998. Under the scheme, the Government of India provides farm credit at a very subsidised rate of 4 percent per annum. Since 2019, the Centre has extended the benefits of Kisan Credit Card to animal husbandry, dairy and fisheries farmers for their working capital requirement and raising the existing limit of collateral free loan from Rs. 1 lakh to Rs.1.60 lakh.</string>
+
+</resources>

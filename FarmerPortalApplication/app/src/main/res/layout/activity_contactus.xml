@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/imgEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_email"
+        app:layout_constraintEnd_toStartOf="@+id/txtEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/contactus_email"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:flow_verticalBias="1"
+        app:layout_constraintStart_toEndOf="@id/imgEmail"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/imgCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_call"
+        app:layout_constraintEnd_toStartOf="@+id/txtcall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgEmail" />
+
+    <TextView
+        android:id="@+id/txtcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/contactus_phone"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:flow_verticalBias="0.5"
+        app:layout_constraintStart_toEndOf="@id/imgCall"
+        app:layout_constraintTop_toBottomOf="@+id/imgEmail" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

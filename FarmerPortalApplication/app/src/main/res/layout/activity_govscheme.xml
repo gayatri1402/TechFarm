@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_gravity="fill_vertical"
+        android:layout_weight="1"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:layout_marginBottom="50dp"
+            >
+
+            <TextView
+                android:id="@+id/txtGovScheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme1"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme1_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme2"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme1" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme2_desc" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme3"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme2" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme3_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme4"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme3" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme4_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme5"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme4" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme5_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme6"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme5" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme6_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme7"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme6" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme7">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme7_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme8"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme7" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme8">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme8_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme9"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme8" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme9">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme9_desc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtGovScheme10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:drawableLeft="@drawable/ic_arrow"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gov_scheme10"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_govScheme9" />
+
+            <LinearLayout
+                android:id="@+id/ll_govScheme10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtGovScheme10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gov_scheme10_desc" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
